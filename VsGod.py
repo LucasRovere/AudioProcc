@@ -11,11 +11,13 @@ def main():
 	quit = False
 
 	while command != 'quit':
-		GetCmd()
 		HandleCmd()
+		GetCmd()
 
 def HandleCmd():
-	if command
+	global command, inputs
+
+	pass
 
 def GetCmd():
 	global command, inputs
